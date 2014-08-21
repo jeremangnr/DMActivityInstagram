@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "DMActivityInstagram"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A UIActivity for Instagram sharing in iOS 6."
   s.platform     = :ios, '6.0'
-  s.source       = { :git => "https://github.com/coryalder/DMActivityInstagram.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/jeremangnr/DMActivityInstagram.git", :tag => "0.0.4" }
   s.description  = <<-DESC
                      DMActivityInstagram is a UIActivity for sharing to instagram.
                      Use with iOS 6's UIActivityViewController.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/coryalder/DMActivityInstagram"
   s.license      = 'MIT'
   s.author       = { "Cory Alder" => "cory@davander.com" }
-  s.source_files = 'DMActivityInstagram/DMActivityInstagram.{h,m}', 'DMActivityInstagram/DMResizerViewController.{h,m}', 'DMActivityInstagram/DMColorPickerView.{h,m}'
+  s.source_files = 'DMActivityInstagram/DMActivityInstagram.{h,m}', 'DMActivityInstagram/DMResizerViewController.{h,m}', 'DMActivityInstagram/DMColorPickerView.{h,m}', 'DMActivityInstagram/DMResizerViewControllerDelegate.h'
   s.resources = "DMActivityInstagram/instagram*.png", "DMActivityInstagram/DMResizerViewController.xib"
   s.requires_arc = true
 end
